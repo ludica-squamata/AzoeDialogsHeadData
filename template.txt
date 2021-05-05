@@ -1,0 +1,35 @@
+"class":"scripted",
+"conditional tags":{
+	<idx>:{
+		<tag_name>:{
+			"objects":[<name>], 
+			"attrs":{<attr>:[<operator>, <value>]}
+		}
+	}
+},
+"style": "tagarrays/<filename>.json",
+"about":<name>,
+"icon": "props/<filename>.png",
+"keywords":[],
+"events":{
+	<name>:{
+		<key>:<value>
+	}
+},
+"panels":{
+	"objects"
+		<name>:<node_idx>
+		"default":<node_idx>
+	"themes"
+		<name>:<node_idx>
+		"default":<node_idx>
+}
+
+
+<name>: string
+<operator>: string
+<value>: integer
+<key>: string
+<node_idx>: integer
+<idx>: string
+<tag_name>: string
